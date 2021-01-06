@@ -11,20 +11,20 @@ $smtp_port = 587;
 $title  = "";
 $admin_email  =	"admin@email.com";
   
-$DWOLLA_KEY= 'a2v2NxjRcryAhgpIvrmBLa7ZUuIimH8jfwlrHk2Yx6QrRkFLQ4';
-$DWOLLA_SECRET= 'gG8W4fMzm91fjFnQYP5mJxnyduIggJDksClizfBNHQMrdLOyqJ';
+$DWOLLA_KEY= '';
+$DWOLLA_SECRET= '';
 $DWOLLA_ENV= 'sandbox';
 $dwolla_endpoint = "https://api-sandbox.dwolla.com/";
-$dwolla_access_token = "LY2wIhxSngoZUrg9PTAWM946ReMK8KHGp2uuupbXC1KNeXdHC3";
+$dwolla_access_token = "";
 
 $TWILIO_SID= 'AC0e95de47497766bfe899c78d1d0518a7';
-$TWILIO_TOKEN= 'b8fedba734011a1821167a06dd648505';
-$TWILIO_VERIFICATION_SID= 'VA97e50f495221cddf24d38b32561c215e';
-$PLAID_CLIENT_ID= '5e3f2043d52ab600127a741f';
-$PLAID_SECRET= '4a35ff18fcd47979f001ccb1ef59bd';
-$PLAID_PUBLIC_KEY= 'aef1edcbe1428fdd489cce276e8da7';
+$TWILIO_TOKEN= '';
+$TWILIO_VERIFICATION_SID= '';
+$PLAID_CLIENT_ID= '';
+$PLAID_SECRET= '';
+$PLAID_PUBLIC_KEY= '';
 $PLAID_ENV= 'sandbox';
-$SENDGRID_API_KEY='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';
+$SENDGRID_API_KEY='';
 
 $SSL_MERCHANT_ID = "011493";
 $SSL_USER_ID = "webpage";

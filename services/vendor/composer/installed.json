@@ -1,0 +1,539 @@
+[
+    {
+        "name": "dwolla/dwollaswagger",
+        "version": "1.3.0",
+        "version_normalized": "1.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dwolla/dwolla-swagger-php.git",
+            "reference": "2cc09246702d1b90cb0926e1615b41c49c9e4731"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dwolla/dwolla-swagger-php/zipball/2cc09246702d1b90cb0926e1615b41c49c9e4731",
+            "reference": "2cc09246702d1b90cb0926e1615b41c49c9e4731",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "php": ">=5.3.3"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.0",
+            "satooshi/php-coveralls": "~0.6.1",
+            "squizlabs/php_codesniffer": "~2.0"
+        },
+        "time": "2019-12-11T14:37:50+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "DwollaSwagger\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "Swagger and contributors",
+                "homepage": "https://github.com/swagger-api/swagger-codegen"
+            },
+            {
+                "name": "David Stancu",
+                "homepage": "https://github.com/mach-kernel"
+            },
+            {
+                "name": "Dwolla",
+                "email": "api@dwolla.com",
+                "homepage": "https://developers.dwolla.com/"
+            }
+        ],
+        "homepage": "http://developers.dwolla.com/",
+        "keywords": [
+            "api",
+            "php",
+            "sdk",
+            "swagger"
+        ]
+    },
+    {
+        "name": "nimbly/capsule",
+        "version": "1.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nimbly/Capsule.git",
+            "reference": "4945d2e4ce7da3a30cf31cb1ffc230b37a4770ae"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nimbly/Capsule/zipball/4945d2e4ce7da3a30cf31cb1ffc230b37a4770ae",
+            "reference": "4945d2e4ce7da3a30cf31cb1ffc230b37a4770ae",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.2",
+            "psr/http-factory": "^1.0",
+            "psr/http-message": "^1.0"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "^2.1",
+            "phploc/phploc": "^5.0",
+            "phpunit/phpunit": "^8.0",
+            "symfony/var-dumper": "^4.3",
+            "vimeo/psalm": "^3.2"
+        },
+        "time": "2020-03-10T19:45:31+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Capsule\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brent Scheffler",
+                "email": "brent@brentscheffler.com"
+            }
+        ],
+        "description": "Capsule is a simple PSR-7 HTTP message and PSR-17 HTTP factory implementation."
+    },
+    {
+        "name": "nimbly/shuttle",
+        "version": "0.4",
+        "version_normalized": "0.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/nimbly/Shuttle.git",
+            "reference": "b3f36e398608922e0590c2954f14b5fa5fec01ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/nimbly/Shuttle/zipball/b3f36e398608922e0590c2954f14b5fa5fec01ba",
+            "reference": "b3f36e398608922e0590c2954f14b5fa5fec01ba",
+            "shasum": ""
+        },
+        "require": {
+            "ext-json": "*",
+            "nimbly/capsule": "^1.0",
+            "php": ">=7.2",
+            "psr/http-client": "^1.0"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^8.0",
+            "symfony/var-dumper": "^4.2",
+            "vimeo/psalm": "^3.0"
+        },
+        "suggest": {
+            "ext-curl": "Use cURL library to make HTTP calls."
+        },
+        "time": "2020-03-15T23:50:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Shuttle\\": "src/"
+            },
+            "files": [
+                "src/functions.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brent Scheffler",
+                "email": "brent@nimbly.io"
+            }
+        ],
+        "description": "Simple PSR-18 HTTP client.",
+        "keywords": [
+            "client",
+            "curl",
+            "http",
+            "http client",
+            "psr-18",
+            "stream context"
+        ]
+    },
+    {
+        "name": "psr/http-client",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-client.git",
+            "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-client/zipball/2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+            "reference": "2dfb5f6c5eff0e91e20e913f8c5452ed95b86621",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.0 || ^8.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2020-06-29T06:28:15+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Client\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP clients",
+        "homepage": "https://github.com/php-fig/http-client",
+        "keywords": [
+            "http",
+            "http-client",
+            "psr",
+            "psr-18"
+        ]
+    },
+    {
+        "name": "psr/http-factory",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-factory.git",
+            "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+            "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=7.0.0",
+            "psr/http-message": "^1.0"
+        },
+        "time": "2019-04-30T12:38:16+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interfaces for PSR-7 HTTP message factories",
+        "keywords": [
+            "factory",
+            "http",
+            "message",
+            "psr",
+            "psr-17",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "sendgrid/php-http-client",
+        "version": "3.10.8",
+        "version_normalized": "3.10.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sendgrid/php-http-client.git",
+            "reference": "51e69a9acdb7a1a5ebb4420d3f54917d7341076f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sendgrid/php-http-client/zipball/51e69a9acdb7a1a5ebb4420d3f54917d7341076f",
+            "reference": "51e69a9acdb7a1a5ebb4420d3f54917d7341076f",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.4",
+            "squizlabs/php_codesniffer": "~2.0"
+        },
+        "time": "2020-06-24T19:34:13+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SendGrid\\": "lib/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Matt Bernier",
+                "email": "mbernier@twilio.com"
+            },
+            {
+                "name": "Elmer Thomas",
+                "email": "ethomas@twilio.com"
+            }
+        ],
+        "description": "HTTP REST client, simplified for PHP",
+        "homepage": "http://github.com/sendgrid/php-http-client",
+        "keywords": [
+            "api",
+            "fluent",
+            "http",
+            "rest",
+            "sendgrid"
+        ]
+    },
+    {
+        "name": "sendgrid/sendgrid",
+        "version": "7.7.0",
+        "version_normalized": "7.7.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/sendgrid/sendgrid-php.git",
+            "reference": "4f2f9f67791ba4c8e311fbe44785661af01062d9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/sendgrid/sendgrid-php/zipball/4f2f9f67791ba4c8e311fbe44785661af01062d9",
+            "reference": "4f2f9f67791ba4c8e311fbe44785661af01062d9",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "ext-openssl": "*",
+            "php": ">=5.6",
+            "sendgrid/php-http-client": "~3.10",
+            "starkbank/ecdsa": "0.*"
+        },
+        "replace": {
+            "sendgrid/sendgrid-php": "*"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^5.7.9 || ^6.4.3",
+            "squizlabs/php_codesniffer": "3.*",
+            "swaggest/json-diff": "^3.4"
+        },
+        "time": "2020-07-08T18:49:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "SendGrid\\Contacts\\": "lib/contacts/",
+                "SendGrid\\EventWebhook\\": "lib/eventwebhook/",
+                "SendGrid\\Mail\\": "lib/mail/",
+                "SendGrid\\Stats\\": "lib/stats/"
+            },
+            "classmap": [
+                "lib/BaseSendGridClientInterface.php",
+                "lib/SendGrid.php",
+                "lib/TwilioEmail.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "This library allows you to quickly and easily send emails through Twilio SendGrid using PHP.",
+        "homepage": "http://github.com/sendgrid/sendgrid-php",
+        "keywords": [
+            "email",
+            "grid",
+            "send",
+            "sendgrid",
+            "twilio sendgrid"
+        ]
+    },
+    {
+        "name": "starkbank/ecdsa",
+        "version": "0.0.4",
+        "version_normalized": "0.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/starkbank/ecdsa-php.git",
+            "reference": "9369d35ed9019321adb4eb9fd3be21357d527c74"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/starkbank/ecdsa-php/zipball/9369d35ed9019321adb4eb9fd3be21357d527c74",
+            "reference": "9369d35ed9019321adb4eb9fd3be21357d527c74",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5"
+        },
+        "time": "2020-05-15T15:46:20+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/ellipticcurve.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "StarkBank",
+                "email": "developers@starkbank.com",
+                "homepage": "https://starkbank.com",
+                "role": "Developer"
+            }
+        ],
+        "description": "fast openSSL-compatible implementation of the Elliptic Curve Digital Signature Algorithm (ECDSA)",
+        "homepage": "https://github.com/starkbank/ecdsa-php"
+    },
+    {
+        "name": "tomorrow-ideas/plaid-sdk-php",
+        "version": "0.10",
+        "version_normalized": "0.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/TomorrowIdeas/plaid-sdk-php.git",
+            "reference": "8a063474496509caebe4be85090847caccc92e38"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/TomorrowIdeas/plaid-sdk-php/zipball/8a063474496509caebe4be85090847caccc92e38",
+            "reference": "8a063474496509caebe4be85090847caccc92e38",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-json": "*",
+            "nimbly/shuttle": "^0.4",
+            "php": ">=7.2"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^8.1",
+            "symfony/var-dumper": "^4.2",
+            "vimeo/psalm": "^3.3"
+        },
+        "time": "2020-06-28T15:44:48+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "TomorrowIdeas\\Plaid\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Brent Scheffler",
+                "email": "brent@tomorrow.me"
+            }
+        ],
+        "description": "PHP implementation of Plaid's API as an SDK.",
+        "keywords": [
+            "php",
+            "plaid",
+            "sdk"
+        ]
+    }
+]

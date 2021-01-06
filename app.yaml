@@ -1,0 +1,33 @@
+runtime: php73
+service: frontend
+env: standard
+
+handlers:
+# Serve a directory as a static resource.
+- url: /assets
+  static_dir: assets
+
+
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg)$
+
+# Serve your app through a front controller at index.php or public/index.php.
+- url: /(.+\.php)$
+  script: auto
+  
+- url: /signup.*
+  script: auto
+
+beta_settings:
+  cloud_sql_instances: kassa-me:us-west2:kassamephp2=tcp:3306
+
+
+
+instance_class: F2
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 3
+  max_idle_instances: 3

@@ -1,0 +1,97 @@
+.footer {
+    /*background-color: orange;*/
+    position: absolute;/**/
+    left: 0;
+    /*bottom: 0;*/
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+#sa_content{
+	height: 850px;	
+}
+#sa_content .container{
+	
+	height: 550px;
+}
+#map {
+        height: 100%;
+}
+      #origin-input,
+      #destination-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 200px;
+      }
+
+      #origin-input:focus,
+      #destination-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #mode-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        margin-left: 12px;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #mode-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+	  
+.money{
+	font-family: Montserrat, sans-serif;
+	font-size: 2.125rem;
+	font-weight: bold;
+    color: rgb(0, 0, 0);	
+}
+.subT{
+	color: rgb(162, 168, 170);
+    display: block;	
+	font-family: Montserrat, sans-serif;
+	font-size: 0.875rem;
+}
+td.money{
+	font-size: 0.9rem;
+}
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}

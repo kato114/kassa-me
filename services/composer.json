@@ -1,0 +1,7 @@
+{
+    "require": {
+        "dwolla/dwollaswagger": "^1.3",
+        "tomorrow-ideas/plaid-sdk-php": "^0.10.0",
+		"sendgrid/sendgrid": "^7.7"
+    }
+}

@@ -1,0 +1,22 @@
+runtime: php72
+service: frontend
+env: standard
+
+handlers:
+  - url: /.*
+    secure: always
+    redirect_http_response_code: 301
+    script: auto
+
+
+beta_settings:
+  cloud_sql_instances: kassa-me:us-west2:kassamephp2=tcp:3306
+
+
+
+instance_class: F2
+
+automatic_scaling:
+  min_instances: 0
+  max_instances: 3
+  max_idle_instances: 3
